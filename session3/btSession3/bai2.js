@@ -54,7 +54,7 @@ for(i=0;i<floakSheep2.length;i++){
 }
 console.log("My flock has size in total:" + tong)
 let tongTien = tong * 2 
-console.log("I would get 1010 * 2$ = " + tongTien)
+console.log("I would get " + tong + " * 2$ = " + tongTien +"$")
 
 
 
