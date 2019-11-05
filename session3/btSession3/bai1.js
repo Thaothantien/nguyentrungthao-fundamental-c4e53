@@ -20,6 +20,7 @@ else if (chucNang == "U"){
      if(shopUpdate < 0 || shopUpdate > shopRead.length){
         console.log("Trong cửa hàng chưa có đến thứ tự quần áo này!")  
      }
+    
      else{
      shopRead[shopUpdate-1] = prompt("Nhập tên quần áo thay:")
      for(i=0;i<shopRead.length;i++)

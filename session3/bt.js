@@ -4,9 +4,12 @@ let truyenRead = ["truyen1","truyen2","truyen3"]
 console.log(truyenRead)
 let nhap = prompt("Nhập chức năng bạn muốn")
 if(nhap =="r"){
-    for (i=0;i<truyenRead.length;i++){
-     console.log(`${i+1}. ${truyenRead[i]}`)
+    // for (i=0;i<truyenRead.length;i++){
+    //  console.log(`${i+1}. ${truyenRead[i]}`)
         
+    // }
+    for (let x in truyenRead){
+        console.log(truyenRead[x])
     }
 }
 else if(nhap == "c"){
