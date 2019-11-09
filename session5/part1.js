@@ -5,21 +5,21 @@
 
 let quiz = [{
     question: "Hello nghia la gi?",
-    rightChoice: "Nghia la xin chao",
-    choices: ["Nghia la abc", "Nghia la hi hi", "Nghia la hope"]
+    rightChoice: 4,
+    choices: ["Nghia la abc", "Nghia la hi hi", "Nghia la hope","Nghia la xin chao"]
 },
 {
     question: "Number nghia la gi?",
-    rightChoice: "Nghia la so",
-    choices: ["Nghia la ha ha", "Nghia la ba ba", "Nghia la abc"]
+    rightChoice: 2,
+    choices: ["Nghia la ha ha", "Nghia la so", "Nghia la ba ba", "Nghia la abc"]
 }, {
     question: "Cau Vang la ai?",
-    rightChoice: "Cau Vang la cho cua Lao Hac",
-    choices: ["Nghia la abc", "Nghia la hi hi", "Nghia la hope"]
+    rightChoice: 3,
+    choices: ["Nghia la abc", "Nghia la hi hi", "Cau Vang la cho cua Lao Hac",  "Nghia la hope"]
 }, {
     question: "Lao Hac la ai?",
-    rightChoice: "La chu cua Cau Vang",
-    choices: ["Nghia la abc", "Nghia la hi hi", "Nghia la hope"]
+    rightChoice: 4,
+    choices: ["Nghia la abc", "Nghia la hi hi", "Nghia la hope","La chu cua Cau Vang"]
 
 }]
 
@@ -32,7 +32,6 @@ if (nhap == 4) {
             console.log("Ban tra loi dung roi")
             tong += 1
             quiz.splice(a,1);
-
         }
         else {
             console.log("Ban tra loi sai roi")
@@ -50,7 +49,7 @@ alert("Tong so cau tra loi dung cua ban la: " + tong)
 //     let a = Math.floor(Math.random() * quiz.length)
 //     // let nhap = prompt(quiz[a].question + '\n' + "1." + quiz[a].choices[0] + '\n' + "2." + quiz[a].choices[1] + '\n' + "3." + quiz[a].choices[2] + '\n' + "4." + quiz[a].rightChoice)
 //     var ar = [quiz[a].choices[0],quiz[a].choices[1],quiz[a].choices[2], quiz[a].rightChoice];
-//     var arr = ar.sort(function () { return 0.5 - Math.random() });
+//     var arr = ar.sort(function () { return 0.5 - Math.random() })
 //     v = (arr[0] + '\n' + arr[1] + '\n' + arr[2] + '\n' + arr[3])    
 //     let nhap = prompt(quiz[a].question + '\n' + v);
 //         if (quiz[i].rightChoice.includes(nhap)) {
@@ -63,7 +62,5 @@ alert("Tong so cau tra loi dung cua ban la: " + tong)
 //             console.log("Ban tra loi sai roi")
 //             quiz.splice(a,1);
 //         }
-
-
 // }
 
