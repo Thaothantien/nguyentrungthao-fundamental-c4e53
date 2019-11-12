@@ -1,6 +1,5 @@
 
 function is_inside (bang1,bang2) {
-    console.log(this);
     
     if (bang2.length < 4) {
         return false

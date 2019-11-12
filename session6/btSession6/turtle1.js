@@ -12,21 +12,31 @@ function sum (x,y){
 }
 sum(4,5)
 
+function draw_square (dodai,mau){
+    color("red")
     for (i=0;i<4;i++){
-        function draw_square (color,length){   
-            color    
-            length * i    
-        }    
-        draw_square(color("red"),[fd(100),rt(90)])
+        fd(100)
+        rt(90)
     }
-
-    for (let i = 0; i  < 30; i ++){
-		drawSquare(i * 5, 'red')
-	lt(17)
-    penup()
-    	length(i * 2)
-    	pendown()
 }
+draw_square()
+for (let i = 0; i  < 30; i ++){
+    draw_square(i * 5, 'red')
+lt(17)
+penup()
+    fd(i * 2)
+    pendown()
+}
+
+
+    function draw_star (dodai) {
+       rt(18)
+       for(let i=0;i < 5 ; i++){
+       fd(150)
+       rt(144)
+       }
+       }
+       draw_star()
 
 
 

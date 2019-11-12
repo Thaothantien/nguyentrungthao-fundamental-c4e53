@@ -1,5 +1,6 @@
 function remove_dollar_sign (s,n){
     let c =  s.replace(/\$/g,"")
+    return c
 }
 // let b = remove_dollar_sign("$Bitch")
 
