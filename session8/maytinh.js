@@ -18,11 +18,11 @@ const dauTien = document.getElementById("khong")
 const xoa = document.getElementById("xoa")
 
 function ud(n){ 
-    dauTien.innerHTML += n ;
+    dauTien.value += n ;
 }
 function tinh(){
-    let c = eval(dauTien.innerHTML)
-    dauTien.innerHTML = c
+    let c = eval(dauTien.value)
+    dauTien.value = c
 }
 bay.addEventListener('click',()=>{
     ud(7)
@@ -70,7 +70,7 @@ bang.addEventListener('click',()=>{
     tinh()
 })    
 xoa.addEventListener('click',()=>{
-    dauTien.innerHTML=""
+    dauTien.value=""
 })  
 cham.addEventListener('click',()=>{
     ud(".")
