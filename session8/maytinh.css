@@ -1,0 +1,21 @@
+#div1{
+    background-color: gray;
+    border-radius: 5px 5px 5px 5px;
+    width: 110px;
+    height: 50px;
+    overflow: hidden;
+    
+}
+
+button{
+    background-color: orange;
+    border-radius:50px 50px 50px 50px
+}
+#div2{
+    /* margin: 10px 15px 20px 25px; */
+    width: 110px;
+    height: 220px;
+    border: solid orange;
+    border-radius: 10px 10px 10px 10px;
+    background-color:black
+}
